@@ -98,8 +98,7 @@ supply a `RouteRef` as `mountPoint`. The mount point will be the handle of the
 component for the outside world, and is used by other components and plugins
 that wish to link to the routable component.
 
-As of now there are only two extension creation functions in the core library,
-but it is possible to add more of them in the future, but more may be added in
+As of now there are only two extension creation functions in the core library, but more may be added in
 the future. There are also some plugins that provide ways to extend
 functionality through their own extensions, like
 `createScaffolderFieldExtension` from `@backstage/plugin-scaffolder`. Extensions
@@ -318,7 +317,7 @@ top-level `routes.ts`. This is to avoid circular imports when you use the route
 references from other parts of the same plugin.
 
 Another thing to note is that this indirection in the routing is particularly
-useful for open source plugins than need to leave flexibility in how they are
+useful for open source plugins that need to leave flexibility in how they are
 integrated. For plugins that you build internally for your own Backstage
 application, you can choose to go the route of direct imports or even use
 concrete routes directly. Although there can be some benefits to using the full

@@ -1,5 +1,17 @@
 # @backstage/plugin-catalog-react
 
+## 0.5.2
+
+### Patch Changes
+
+- ca0559444c: Avoid usage of `.to*Case()`, preferring `.toLocale*Case('en-US')` instead.
+- Updated dependencies
+  - @backstage/core-components@0.6.1
+  - @backstage/core-plugin-api@0.1.10
+  - @backstage/core-app-api@0.1.16
+  - @backstage/catalog-model@0.9.4
+  - @backstage/integration@0.6.7
+
 ## 0.5.1
 
 ### Patch Changes
